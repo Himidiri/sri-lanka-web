@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Basic Styling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgba(21,82,99,255);
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    margin: 50px 0px 50px 0px;
+    text-transform: uppercase;
+    font-size:50px;
+
+  }
+  img {
+    position: relative;
+    width: 20%;
+    margin: 35px 0px;
+  }
+
+  .div1{
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    font-weight: bold;
+    margin: auto;
+    width: 40%;
+    padding: 0px 20px;
+  }
+
+  .div2 {
+    font-size: 20px;
+    margin: auto;
+    width: 36%;
+    padding: 40px;
+    line-height: 1.5;
+  }
+  
+  .button {
+    background-color: rgba(198,105,18,255);
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
