@@ -84,3 +84,37 @@ video {
   border-radius: 30px;
   margin: auto 30px;
 }
+
+.div4 {
+  font-size: 20px;
+}
+
+.div4 h1 {
+  font-family: "Times New Roman";
+  font-size: 75px;
+  text-transform: capitalize;
+  margin: 50px 0px 20px 0px;
+}
+
+.div4 table {
+  margin: 50px auto;
+}
+
+.div4 img {
+  width: 30px;
+  margin: 20px auto;
+}
+
+.card {
+  background-color: #f9b577;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 20px;
+  padding: 30px;
+  width: 500px;
+}
+
+.card p {
+  margin-top: 20px;
+  line-height: 2.5ch;
+}
