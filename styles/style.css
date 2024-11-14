@@ -1,10 +1,10 @@
+  /* Basic Styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
   
-  /* Basic Styling */
   html {
     scroll-behavior: smooth;
   }
@@ -53,4 +53,12 @@
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
+    margin: 35px 0px 50px 0px;
+  }
+
+  video {
+    margin: auto;
+    width: 75%;
+    height: auto;
+    border-radius: 30px;
   }
