@@ -150,7 +150,7 @@ video {
   font-size: 30px;
   background-color: #fff;
   color: #000;
-  margin: auto;
+  margin: 20px auto;
   padding: 25px;
   width: 90%;
   clear: both;
@@ -176,4 +176,82 @@ video {
 
 .div6 td {
   text-align: left;
+}
+
+.footer {
+  margin: 6% 4%;
+  text-align: left;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left h2 {
+  margin-bottom: 40px;
+}
+
+.footer-left p {
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.footer-right ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.footer-right ul li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-left-text {
+  margin: 0;
+}
+
+.footer-right-links a {
+  margin: 0px 0px 0px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right-links a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 5% 0% 2% 0%;
+  border: 1px solid #7ea3ab;
+}
+
+.footer-bottom a {
+  margin-left: 10px;
+
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
