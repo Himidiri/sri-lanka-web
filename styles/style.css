@@ -119,9 +119,16 @@ video {
   line-height: 2.5ch;
 }
 
+.div5 {
+  background-color: transparent;
+  margin: auto;
+  padding: auto;
+}
+
 .div5 img {
   width: 40%;
   float: right;
+  margin-bottom: 7%;
 }
 
 .text {
@@ -136,4 +143,37 @@ video {
   font-size: 18px;
   margin-top: 30px;
   font-weight: lighter;
+}
+
+.div6 {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  background-color: #fff;
+  color: #000;
+  margin: auto;
+  padding: 25px;
+  width: 90%;
+  clear: both;
+}
+
+.div6 p {
+  font-weight: bold;
+  margin: 0px 0px 20px 0px;
+}
+
+.div6 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.div6 table,
+.div6 th,
+.div6 td {
+  border: 2px solid blue;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.div6 td {
+  text-align: left;
 }
