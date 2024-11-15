@@ -1,4 +1,4 @@
-/* Basic Styling */
+/* Basic Styles */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,18 +16,20 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
+/* Header */
+header h1 {
   margin: 50px 0px 50px 0px;
   text-transform: uppercase;
   font-size: 50px;
 }
+
 img {
   position: relative;
   width: 20%;
   margin: 35px 0px;
 }
 
-.div1 {
+.intro {
   font-family: "Times New Roman";
   font-size: 55px;
   font-weight: bold;
@@ -36,7 +38,7 @@ img {
   padding: 0px 20px;
 }
 
-.div2 {
+.join p {
   font-size: 20px;
   margin: auto;
   width: 36%;
@@ -44,6 +46,7 @@ img {
   line-height: 1.5;
 }
 
+/* Button */
 .button {
   background-color: rgba(198, 105, 18, 255);
   border: none;
@@ -52,66 +55,98 @@ img {
   border-radius: 10px;
   font-size: 15px;
   cursor: pointer;
-  margin: 35px 0px 30px 0px;
+  margin: 0px 0px 100px 0px;
 }
 
-video {
+/* Video Section */
+.media video {
   margin: auto;
   width: 75%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
-.div3 {
+.video-container {
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  top: 44%;
+  left: 49%;
+  background-color: rgba(0, 0, 0, 0.062);
+  border-radius: 50%;
+  padding: 1.3em 1.2em 1.3em 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 300;
+  width: 2em;
+  height: 2.1em;
+  white-space: nowrap;
+  line-height: 0;
+  border: 3px solid white;
+  pointer-events: auto;
+}
+
+/* Gallery Section */
+.gallery {
   font-size: 20px;
+  margin: 100px 0px;
 }
 
-.div3 h1 {
+.gallery h1 {
   font-family: "Times New Roman";
-  font-size: 75px;
+  font-size: 100px;
   text-transform: capitalize;
   font-weight: bold;
-  margin: 50px 0px 20px 0px;
+  margin: 70px 0px 20px 0px;
 }
 
-.div3 table {
+.gallery table {
   margin: 70px auto;
 }
 
-.div3 img {
-  width: 550px;
-  height: 550px;
+.gallery img {
+  width: 500px;
+  height: 500px;
   border-radius: 30px;
   margin: auto 30px;
 }
 
-.div4 {
+/* Features Section */
+.features {
   font-size: 20px;
+  margin: 100px 0px;
 }
 
-.div4 h1 {
+.features h1 {
   font-family: "Times New Roman";
   font-size: 75px;
   text-transform: capitalize;
   margin: 50px 0px 20px 0px;
 }
 
-.div4 table {
+.features table {
   margin: 50px auto;
 }
 
-.div4 img {
+.features img {
   width: 30px;
   margin: 20px auto;
 }
 
+/* Cards */
 .card {
   background-color: #f9b577;
   font-weight: lighter;
   font-size: 18px;
   margin: 20px;
   padding: 30px;
-  width: 500px;
+  width: 480px;
 }
 
 .card p {
@@ -119,13 +154,14 @@ video {
   line-height: 2.5ch;
 }
 
-.div5 {
+/* Information Section */
+.info {
   background-color: transparent;
   margin: auto;
   padding: auto;
 }
 
-.div5 img {
+.info img {
   width: 40%;
   float: right;
   margin-bottom: 7%;
@@ -145,7 +181,8 @@ video {
   font-weight: lighter;
 }
 
-.div6 {
+/* Details table Section */
+.details {
   font-family: "Times New Roman";
   font-size: 30px;
   background-color: #fff;
@@ -156,28 +193,29 @@ video {
   clear: both;
 }
 
-.div6 p {
+.details p {
   font-weight: bold;
   margin: 0px 0px 20px 0px;
 }
 
-.div6 table {
+.details table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.div6 table,
-.div6 th,
-.div6 td {
+.details table,
+.details th,
+.details td {
   border: 2px solid blue;
   padding: 8px;
   font-size: 20px;
 }
 
-.div6 td {
+.details td {
   text-align: left;
 }
 
+/* Footer */
 .footer {
   margin: 6% 4%;
   text-align: left;
@@ -191,11 +229,13 @@ video {
 
 .footer-left h2 {
   margin-bottom: 40px;
+  font-weight: 100;
 }
 
 .footer-left p {
   margin-bottom: 30px;
   line-height: 2;
+  font-weight: normal;
 }
 
 .social-icons {
@@ -248,10 +288,9 @@ hr {
 
 .footer-bottom a {
   margin-left: 10px;
-
   text-decoration: none;
 }
 
 .footer-bottom a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }

@@ -11,23 +11,32 @@
     />
   </head>
   <body>
-    <h1>Sri Lanka</h1>
-    <p>Island country in South Asia</p>
-    <img src="./images/Flag_of_Sri_Lanka.svg" alt="Flag of Sri Lanka" />
-    <div class="div1">
+    <header>
+      <h1>Sri Lanka</h1>
+      <p>Island country in South Asia</p>
+      <img src="./images/Flag_of_Sri_Lanka.svg" alt="Flag of Sri Lanka" />
+    </header>
+    <section class="intro">
       <p>
         Experience the vibrant culture and breathtaking landscapes of Sri Lanka.
       </p>
-    </div>
-    <div class="div2">
+    </section>
+    <section class="join">
       <p>
         Join our community and share your journey through the stunning vistas of
         this island paradise.
       </p>
       <input type="button" class="button" value="Start Your Journey" />
-    </div>
-    <video src="./videos/beach.mp4" controls autoplay loop></video>
-    <div class="div3">
+    </section>
+    <section class="media">
+      <div class="video-container">
+        <video class="video">
+          <source src="./videos/beach.mp4" type="video/mp4" />
+        </video>
+        <div class="play-btn">▶</div>
+      </div>
+    </section>
+    <section class="gallery">
       <h1>Gallery of Wonders</h1>
       <p>
         Discover the beauty of Sri Lanka through our curated image collection.
@@ -35,18 +44,18 @@
       <table>
         <tr>
           <td>
-            <img src="./images/1.jpg" alt />
+            <img src="./images/1.png" alt="city" />
           </td>
           <td>
-            <img src="./images/2.png" alt />
+            <img src="./images/2.jpg" alt="village" />
           </td>
           <td>
-            <img src="./images/3.jpeg" alt />
+            <img src="./images/3.jpeg" alt="beach" />
           </td>
         </tr>
       </table>
-    </div>
-    <div class="div4">
+    </section>
+    <section class="features">
       <h1>Why Choose Us?</h1>
       <p>Your Gateway to Adventure</p>
       <table>
@@ -81,8 +90,8 @@
           </td>
         </tr>
       </table>
-    </div>
-    <div class="div5">
+    </section>
+    <section class="info">
       <div>
         <img src="./images/beach.png" alt="Beach" />
       </div>
@@ -92,12 +101,12 @@
         </p>
         <p class="author">Jane Doe, Travel Enthusiast</p>
       </div>
-    </div>
-    <div class="div6">
+    </section>
+    <section class="details">
       <p>Point of Details</p>
       <table>
         <tr>
-          <th rowspan="2">Capital</th>
+          <th rowspan="2">Category</th>
           <th colspan="2">Details</th>
         </tr>
         <tr>
@@ -188,17 +197,13 @@
           <td colspan="2">Vesak, Sinhala and Tamil New Year, Christmas</td>
         </tr>
       </table>
-    </div>
+    </section>
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-left">
           <h2>Sri Lanka Tours</h2>
-          <p>
-            <strong>Address:</strong><br />123 Island Road, Colombo, Sri Lanka
-          </p>
-          <p>
-            <strong>Phone:</strong><br />1800 456 7890<br />info@srilankatravels.com
-          </p>
+          <p>Address:<br />123 Island Road, Colombo, Sri Lanka</p>
+          <p>Phone:<br />1800 456 7890<br />info@srilankatravels.com</p>
           <div class="social-icons">
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"> <i class="fa-brands fa-instagram"></i></a>
@@ -232,5 +237,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
